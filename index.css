@@ -226,7 +226,8 @@ body{
 }
 
   .footer {
-    width: 1049px;
+    /*width: auto;*/
+    width: 1139px;
     height: 318px;
     margin: 344px 0 0;
     padding: 144px 78px 64px 120px;
