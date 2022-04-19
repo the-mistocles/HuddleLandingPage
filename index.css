@@ -1,5 +1,9 @@
 /* ===== Navbar ===== */
-  .header {
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
 
     width: auto;
   
@@ -7,7 +11,7 @@
   
     flex-grow: 0;
   
-    margin: 0 0 160px;
+    margin: 0 0 260px;
   
     padding: 0 0 3px;
   
@@ -16,14 +20,15 @@
   }
 
     .site-navbar {
-        margin-top: 30px;
-        margin-bottom: 0px;
+        /* margin-top: 30px; */
+        /* margin-bottom: 0px; */
         z-index: 1999;
         position: relative;
         top: 0;
         width: 100%;
         padding: 1rem;
         position: absolute;
+        
     }
 
 
@@ -34,6 +39,28 @@
         padding-right: 70px;
     }
 
+    .align-items-center {
+      -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+      align-items: center !important;
+    }
+
+    .position-relative {
+      position: relative !important;
+    }
+
+
+    .try-free{
+      width: 200px;
+
+      height: 48px;
+    
+      border-radius: 24px;
+    
+      box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+    
+      background-color: #fff;
+    }
   
 
 .row {
@@ -62,7 +89,7 @@
 
 .text-right {
 	text-align: right !important;
-    
+  margin-left: 400px;   
 }
 
 .brand-img{
@@ -99,7 +126,7 @@
     height: 120px;
     margin: 0 0 32px;
     padding: 84.5px 88px 11.4px 424px;
-    font-family: Poppins;
+    font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     font-weight: 600;
     font-stretch: normal;
@@ -110,14 +137,76 @@
     color: #00252e;
   }
 
+  .grow{
+    height: 100%;
+    width: 100%;
+  }
 
-
-  .Path-2 {
-    width: 437px;
-    height: 408px;
+  .rectangle {
+    width: auto;
+    height: 440px;
     flex-grow: 0;
-    margin: 0 288px 310px 0;
-    background-image: linear-gradient(126deg, rgba(255, 255, 255, 0) -19%, #c9f0ff 106%);
+    margin: 160px 104px 40px;
+    padding: 0 16px 0 120px;
+    border-radius: 16px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+  }
+
+  .rectangle-2 {
+    width: auto;
+    height: 440px;
+    flex-grow: 0;
+    margin: 40px 104px;
+    padding: 0 29px 0 109px;
+    border-radius: 16px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+  }
+
+  .flowing{
+    height: 100%;
+    width: 100%;
+  }
+
+  .users{
+    height: 100%;
+    width: 100%;
+  }
+
+  .rectangle-3 {
+    width: 30%;
+    height: 180px;
+    margin: 160px 320px 322px;
+    padding: 56px 127px 52px 132px;
+    border-radius: 15px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+  }
+
+  .rectangle-3-content{
+    margin-top: 35px;
+    margin-left: 5px;
+  }
+
+  .rectangle-content{
+    margin-right: 30px;
+    margin-top: 110px;
+  }
+
+  .parent{
+    position: relative;
+    width: auto;
+  }
+
+  .child1{
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+  }
+  .child2{
+    position: absolute;
+    z-index: 200;
   }
 
 
@@ -128,15 +217,16 @@
     color: #fff;
     width: 280px;
     height: 56px;
+    margin-left: 35px;
     padding: 17px 69px 20px 70px;
     border-radius: 28px;
-    box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.17);
+    box-shadow: 0 6px 13px 0 rgba(0, 37, 46, 0.22);
     background-color: #ff52c1;
      
 }
 
   .footer {
-    width: auto;
+    width: 1049px;
     height: 318px;
     margin: 344px 0 0;
     padding: 144px 78px 64px 120px;
@@ -157,39 +247,7 @@
     background-color: #fff;
   }
 
-  img.place {
-    width: 13px;
-    height: 18px;
-    align-self: center;
-    flex-grow: 0;
-    object-fit: contain;
-  }
-
-
-  .Lorem-ipsum-dolor-si {
-    width: 339px;
-    height: 72px;
-    flex-grow: 0;
-    font-family: OpenSans;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-  }
-
-  img.phone-in-talk {
-    width: 18px;
-    height: 18px;
-    align-self: center;
-    flex-grow: 0;
-    object-fit: contain;
-  }
-
-  span {
+ span {
     width: 110px;
     height: 24px;
     margin: 1px 0 0 16px;
@@ -205,31 +263,7 @@
   }
     
 
-  img.Shape {
-    width: 20px;
-    height: 16px;
-    flex-grow: 0;
-    object-fit: contain;
-    background-color: #fff;
-  }
-
-
-  .examplehuddlecom {
-    width: 147px;
-    height: 24px;
-    margin: 1px 0 0 16px;
-    font-family: OpenSans;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-  }
-
-  .nav-col{
+ .nav-col{
     box-sizing: border-box;
     color: rgb(249, 249, 250);
     flex-basis: 160px;
@@ -246,6 +280,7 @@
   .container{
       display: flex;
       align-items: center;
+      margin-left: 150px;
       
   }
 
